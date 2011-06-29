@@ -1,0 +1,12 @@
+Source: openpanel-openapp-gui
+Section: misc
+Priority: optional
+Maintainer: OpenPanel packager <packages@openpanel.com>
+Build-Depends: openpanel-gui
+Standards-Version: 3.7.2
+
+Package: openpanel-openapp-gui
+Architecture: any
+Depends: openpanel-gui
+Description: OpenApp GUI overlay 
+ OpenApp GUI overlay to replace logo and remove username from login page
