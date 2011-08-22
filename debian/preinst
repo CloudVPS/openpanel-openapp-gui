@@ -27,10 +27,6 @@ set -e
 #
 
 dpkg-divert --package openpanel-openapp-gui --add --rename \
-	--divert /var/openpanel/http/images/OpenPanelLogo.png.real \
-		 /var/openpanel/http/images/OpenPanelLogo.png
-
-dpkg-divert --package openpanel-openapp-gui --add --rename \
         --divert /var/openpanel/http/images/OpenPanelLogoBig.png.real \
                  /var/openpanel/http/images/OpenPanelLogoBig.png
 

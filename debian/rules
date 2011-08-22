@@ -13,7 +13,6 @@ install:
 	rm -rf ${BUILD_ROOT}
 	mkdir -p ${BUILD_ROOT}/var/openpanel/http/images
 	mkdir -p ${BUILD_ROOT}/var/openpanel/http/templates
-	cp -f OpenPanelLogo.png ${BUILD_ROOT}/var/openpanel/http/images
 	sed -e 's!<div class="labelElement" style="cursor: default; ">Username:</div>!!' -e 's!<input type="text" name="userName" id="userName" tabindex="1" style="width: 154px; ">!<input type="hidden" name="userName" id="userName" value="openpanel-admin">!' < /var/openpanel/http/index.html > ${BUILD_ROOT}/var/openpanel/http/index.html
 	cp -f OpenPanelLogoBig.png ${BUILD_ROOT}/var/openpanel/http/images
 	cp -f OpenAppBackground.png ${BUILD_ROOT}/var/openpanel/http/images
