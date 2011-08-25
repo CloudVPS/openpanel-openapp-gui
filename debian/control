@@ -10,3 +10,4 @@ Architecture: any
 Depends: openpanel-gui
 Description: OpenApp GUI overlay 
  OpenApp GUI overlay to replace logo and remove username from login page
+
