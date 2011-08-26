@@ -2,7 +2,7 @@ Source: openpanel-openapp-gui
 Section: misc
 Priority: optional
 Maintainer: OpenPanel packager <packages@openpanel.com>
-Build-Depends: openpanel-gui, debhelper
+Build-Depends: openpanel-gui (>= 1.1.1), debhelper
 Standards-Version: 3.7.2
 
 Package: openpanel-openapp-gui
