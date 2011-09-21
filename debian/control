@@ -6,7 +6,7 @@ Build-Depends: openpanel-gui (>= 1.1.1), debhelper
 Standards-Version: 3.7.2
 
 Package: openpanel-openapp-gui
-Architecture: any
+Architecture: all
 Depends: openpanel-gui
 Description: OpenApp GUI overlay 
  OpenApp GUI overlay to replace logo and remove username from login page
